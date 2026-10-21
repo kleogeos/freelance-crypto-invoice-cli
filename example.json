@@ -1,0 +1,13 @@
+{
+  "invoice_number": "INV-CRYPTO-0001",
+  "from": "Acme Freelancer",
+  "to": "Client Co.",
+  "date": "2026-10-21",
+  "due_date": "2026-10-28",
+  "network": "TRC20",
+  "address": "TXYZ1234567890abcdefghijklmnopqrstuv",
+  "items": [
+    {"description": "Website redesign", "qty": 1, "rate": 1200}
+  ],
+  "notes": "Pay in USDT only on the TRC20 network to the address above."
+}
