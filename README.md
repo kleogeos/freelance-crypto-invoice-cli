@@ -41,6 +41,21 @@ chain and getting lost).
 
 Not sure which network to use? See [Какую сеть USDT выбрать](https://kleogeos.github.io/freelancer-tools/kakuyu-set-usdt-vybrat-frilanseru.html?src=cli-cryptoinvoice).
 
+## Wrong network? Second tool in this repo
+
+If a client already sent USDT on the wrong network (e.g. your invoice said
+TRC20 but it landed as ERC20), `swap-helper.py` prints a ready-to-send
+client message plus a non-custodial swap link — no account needed on
+either side, and no need to ask the client to resend anything.
+
+```
+python3 swap-helper.py 150 erc20 trc20
+```
+
+(The swap link is a SimpleSwap affiliate link — disclosed here plainly:
+using it costs the client nothing extra and sends a small referral
+commission this project's way.)
+
 ## Related
 
 Part of the [Freelancer Toolbox](https://kleogeos.github.io/freelancer-tools/kit.html?src=cli-cryptoinvoice) —
